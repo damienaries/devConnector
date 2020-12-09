@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://damienAries:jKiObAuZbtX3rHGM@devconnector.neke2.mongodb.net/devConnector?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "2aee2c7507c7d0de3605",
+    "githubSecret": "1d9532ffeb8a076fa5e1eaf66f851a3c281f805c"
 }
