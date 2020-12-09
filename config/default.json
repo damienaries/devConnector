@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://damienAries:jKiObAuZbtX3rHGM@devconnector.neke2.mongodb.net/devConnector?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+}
