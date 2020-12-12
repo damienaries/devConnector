@@ -14,7 +14,7 @@ export const getCurrentProfile = () => async dispatch => {
 
         dispatch({
             type: GET_PROFILE,
-            paylaod: res.data
+            payload: res.data
         });
     } catch (err) {
         dispatch({
