@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { 
     REGISTER_SUCCESS, 
     REGISTER_FAIL,
@@ -15,7 +16,7 @@ const initialState = {
     user: null
 }
 
-export default function foo(state = initialState, action) {
+export default function (state = initialState, action) {
     const { type, payload } = action;
     
     switch(type) {
