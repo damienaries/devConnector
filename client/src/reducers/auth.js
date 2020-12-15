@@ -49,7 +49,8 @@ export default function (state = initialState, action) {
                 ...state,
                 token: null,
                 isAuthenticated: false,
-                loading: false
+                loading: false,
+                user: null
             }
         case GET_REPOS:
             return {
